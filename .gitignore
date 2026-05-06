@@ -1,1 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据库与日志（不要上传用户数据）
+*.db
+*.log
+app.log.*
+
+# 环境变量（绝对不要上传 API Key！）
 .env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
